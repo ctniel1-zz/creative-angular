@@ -1,9 +1,8 @@
 import 'rxjs/add/operator/switchMap';
-import { Component, OnInit }        from '@angular/core';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { Component, Input }        from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Location }                 from '@angular/common';
 
-import { Team }         from './team';
 import { TeamService }  from './team.service';
 
 @Component({
@@ -12,18 +11,16 @@ import { TeamService }  from './team.service';
   styleUrls: [ './team-detail.component.css' ]
 })
 
-export class TeamDetailComponent implements OnInit {
-  team: Team;
+export class TeamDetailComponent {
+  @Input() teamID: number;
   constructor (
     private teamService: TeamService,
     private route: ActivatedRoute,
     private location: Location
   ) {}
-  ngOnInit(): void {
-    this.route.paramMap
-      .switchMap((params: ParamMap) => this.teamService.getTeam(+params.get('id')))
-      .subscribe(team => this.team = team);
-  }
+  teams = this.teamService
+    .getTeams()
+    .subscribe(data => {console.log('Data: ', data); this.teams = data; });
   goBack(): void {
     this.location.back();
   }

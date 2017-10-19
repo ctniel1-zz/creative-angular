@@ -1,13 +1,11 @@
 <h2>Teams</h2>
 <ul class="teams">
-  <li *ngFor="let team of teams" (click)="onSelect(team)"
-      [class.selected]="team === selectedTeam">
-    <span>{{team.name}}</span>
+  <li *ngFor="let team of teams.overallteamstandings.teamstandingsentry; let i = index">
+    <span (click)="gotoDetail(teams.overallteamstandings.teamstandingsentry[i].rank)">
+      {{teams.overallteamstandings.teamstandingsentry[i].rank}}
+      {{teams.overallteamstandings.teamstandingsentry[i].team.City}}
+      {{teams.overallteamstandings.teamstandingsentry[i].team.Name}}</span>
   </li>
 </ul>
-<div *ngIf="selectedTeam">
-  <h2>
-    {{selectedTeam.name | uppercase}}
-  </h2>
-  <button (click)="gotoDetail()">View Details</button>
-</div>
+
+<team-detail [teamID]="selectedteam"></team-detail>

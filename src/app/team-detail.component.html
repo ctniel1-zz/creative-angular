@@ -1,6 +1,9 @@
-<div *ngIf="team">
-  <h2>{{team.name}} details!</h2>
-  <div>
-    <button (click)="goBack()">Back</button>
+<div>
+  <h2>{{teamID}} details!</h2>
+</div>
+<div *ngFor="let team of teams.overallteamstandings.teamstandingsentry; let i = index">
+  <div *ngIf="teams.overallteamstandings.teamstandingsentry[i].rank == teamID">
+    {{teams.overallteamstandings.teamstandingsentry[i].team.City}}
+    {{teams.overallteamstandings.teamstandingsentry[i].team.Name}} Statistics
   </div>
 </div>
