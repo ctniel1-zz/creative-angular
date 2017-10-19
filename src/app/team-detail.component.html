@@ -1,9 +1,83 @@
-<div>
-  <h2>{{teamID}} details!</h2>
-</div>
-<div *ngFor="let team of teams.overallteamstandings.teamstandingsentry; let i = index">
-  <div *ngIf="teams.overallteamstandings.teamstandingsentry[i].rank == teamID">
-    {{teams.overallteamstandings.teamstandingsentry[i].team.City}}
-    {{teams.overallteamstandings.teamstandingsentry[i].team.Name}} Statistics
+<div *ngFor="let team of teams.overallTeamStandings.teamStandingsEntry; let i = index">
+  <div *ngIf="teams.overallTeamStandings.teamStandingsEntry[i].rank == teamID">
+    {{teams.overallTeamStandings.teamStandingsEntry[i].team.City}}
+    {{teams.overallTeamStandings.teamStandingsEntry[i].team.Name}}
+    <table>
+      <thead>2016-2017 Record</thead>
+      <tr>
+        <td>Wins</td>
+        <td>Losses</td>
+        <td>%</td>
+      </tr>
+      <tr>
+        <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.Wins.text}}</td>
+        <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.Losses.text}}</td>
+        <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.WinPct.text}}</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td (click)="showOffense()">Offensive Stats</td>
+        <td (click)="showDefense()">Defensive Stats</td>
+      </tr>
+    </table>
+    <div *ngIf="offenseStats">
+      <table>
+        <thead>2016-2017 Offensive Stats</thead>
+        <tr>
+          <td>Points Per Game</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.PtsPerGame.text}}</td>
+        </tr>
+        <tr>
+          <td>Assists Per Game</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.AstPerGame.text}}</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Made</td>
+          <td>Attempted</td>
+          <td>%</td>
+        </tr>
+        <tr>
+          <td>Field Goals Per Game</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.FgMadePerGame.text}}</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.FgAttPerGame.text}}</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.FgPct.text}}</td>
+        </tr>
+        <tr>
+          <td>3pt Field Goals Per Game</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.Fg3PtMadePerGame.text}}</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.Fg3PtAttPerGame.text}}</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.Fg3PtPct.text}}</td>
+        </tr>
+        <tr>
+          <td>Free Throws Per Game</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.FtMadePerGame.text}}</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.FtAttPerGame.text}}</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.FtPct.text}}</td>
+        </tr>
+      </table>
+    </div>
+    <div *ngIf="defenseStats">
+      <table>
+        <thead>2016-2017 Defensive Stats</thead>
+        <tr>
+          <td>Points Against per Game</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.PtsAgainstPerGame.text}}</td>
+        </tr>
+        <tr>
+          <td>Rebounds per Game</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.RebPerGame.text}}</td>
+        </tr>
+        <tr>
+          <td>Steals per Game</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.StlPerGame.text}}</td>
+        </tr>
+        <tr>
+          <td>Blocks per Game</td>
+          <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.BlkPerGame.text}}</td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>
