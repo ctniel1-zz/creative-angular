@@ -1,10 +1,10 @@
 <h2>Teams</h2>
 <ul class="teams">
-  <li *ngFor="let team of teams.overallteamstandings.teamstandingsentry; let i = index">
-    <span (click)="gotoDetail(teams.overallteamstandings.teamstandingsentry[i].rank)">
-      {{teams.overallteamstandings.teamstandingsentry[i].rank}}
-      {{teams.overallteamstandings.teamstandingsentry[i].team.City}}
-      {{teams.overallteamstandings.teamstandingsentry[i].team.Name}}</span>
+  <li *ngFor="let team of teams.overallTeamStandings.teamStandingsEntry; let i = index">
+    <div (click)="gotoDetail(teams.overallTeamStandings.teamStandingsEntry[i].rank)">
+      {{teams.overallTeamStandings.teamStandingsEntry[i].rank}}
+      {{teams.overallTeamStandings.teamStandingsEntry[i].team.City}}
+      {{teams.overallTeamStandings.teamStandingsEntry[i].team.Name}}</div>
   </li>
 </ul>
 

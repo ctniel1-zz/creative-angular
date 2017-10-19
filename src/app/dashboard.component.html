@@ -1,8 +1,0 @@
-<h3>2016-2017 Top Teams</h3>
-<div class="grid grid-pad">
-  <a *ngFor="let team of teams.overallteamstandings.teamstandingsentry | slice:0:4; let i = index"  class="col-1-4">
-    <div class="module team">
-      <h4>{{teams.overallteamstandings.teamstandingsentry[i].team.City}} {{teams.overallteamstandings.teamstandingsentry[i].team.Name}}</h4>
-    </div>
-  </a>
-</div>

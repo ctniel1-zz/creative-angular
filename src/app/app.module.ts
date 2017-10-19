@@ -5,7 +5,6 @@ import { HttpModule, JsonpModule }    from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent }         from './app.component';
-import { DashboardComponent }            from './dashboard.component';
 import { TeamsComponent }       from './teams.component';
 import { TeamDetailComponent }  from './team-detail.component';
 import { TeamService }          from './team.service';
@@ -17,7 +16,6 @@ import { TeamService }          from './team.service';
                   AppRoutingModule
   ],
   declarations: [ AppComponent,
-                  DashboardComponent,
                   TeamsComponent,
                   TeamDetailComponent,
   ],
