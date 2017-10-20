@@ -5,6 +5,7 @@ import { Jsonp } from '@angular/http';
 import { TeamService }  from './team.service';
 
 @Component({
+  moduleId: module.id,
   selector: 'my-teams',
   templateUrl: './teams.component.html',
   styleUrls: [ './teams.component.css' ],

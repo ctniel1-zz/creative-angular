@@ -5,6 +5,7 @@ import { DomSanitizer, SafeHtml }            from '@angular/platform-browser';
 import { TeamService }  from './team.service';
 
 @Component({
+  moduleId: module.id,
   selector: 'team-detail',
   templateUrl: './team-detail.component.html',
   styleUrls: [ './team-detail.component.css' ]
