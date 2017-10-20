@@ -1,8 +1,10 @@
 <div *ngFor="let team of teams.overallTeamStandings.teamStandingsEntry; let i = index">
   <div *ngIf="teams.overallTeamStandings.teamStandingsEntry[i].rank == teamID">
-    {{teams.overallTeamStandings.teamStandingsEntry[i].team.City}}
-    {{teams.overallTeamStandings.teamStandingsEntry[i].team.Name}}
-    <table>
+    <div id="team-name">
+      {{teams.overallTeamStandings.teamStandingsEntry[i].team.City}}
+      {{teams.overallTeamStandings.teamStandingsEntry[i].team.Name}}
+    </div>
+    <table id="record-table">
       <thead>2016-2017 Record</thead>
       <tr>
         <td>Wins</td>
@@ -15,21 +17,21 @@
         <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.WinPct.text}}</td>
       </tr>
     </table>
-    <table>
+    <table id="stats-picker">
       <tr>
-        <td (click)="showOffense()">Offensive Stats</td>
-        <td (click)="showDefense()">Defensive Stats</td>
+        <td (click)="showOffense()"><button>Offensive Stats</button></td>
+        <td (click)="showDefense()"><button>Defensive Stats</button></td>
       </tr>
     </table>
-    <div *ngIf="offenseStats">
+    <div class="stats-table" *ngIf="offenseStats">
       <table>
         <thead>2016-2017 Offensive Stats</thead>
         <tr>
-          <td>Points Per Game</td>
+          <td class="row-title">Points Per Game</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.PtsPerGame.text}}</td>
         </tr>
         <tr>
-          <td>Assists Per Game</td>
+          <td class="row-title">Assists Per Game</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.AstPerGame.text}}</td>
         </tr>
         <tr>
@@ -39,45 +41,50 @@
           <td>%</td>
         </tr>
         <tr>
-          <td>Field Goals Per Game</td>
+          <td class="row-title">Field Goals Per Game</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.FgMadePerGame.text}}</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.FgAttPerGame.text}}</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.FgPct.text}}</td>
         </tr>
         <tr>
-          <td>3pt Field Goals Per Game</td>
+          <td class="row-title">3pt Field Goals Per Game</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.Fg3PtMadePerGame.text}}</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.Fg3PtAttPerGame.text}}</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.Fg3PtPct.text}}</td>
         </tr>
         <tr>
-          <td>Free Throws Per Game</td>
+          <td class="row-title">Free Throws Per Game</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.FtMadePerGame.text}}</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.FtAttPerGame.text}}</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.FtPct.text}}</td>
         </tr>
       </table>
     </div>
-    <div *ngIf="defenseStats">
+    <div class="stats-table" *ngIf="defenseStats">
       <table>
         <thead>2016-2017 Defensive Stats</thead>
         <tr>
-          <td>Points Against per Game</td>
+          <td class="row-title">Points Against per Game</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.PtsAgainstPerGame.text}}</td>
         </tr>
         <tr>
-          <td>Rebounds per Game</td>
+          <td class="row-title">Rebounds per Game</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.RebPerGame.text}}</td>
         </tr>
         <tr>
-          <td>Steals per Game</td>
+          <td class="row-title">Steals per Game</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.StlPerGame.text}}</td>
         </tr>
         <tr>
-          <td>Blocks per Game</td>
+          <td class="row-title">Blocks per Game</td>
           <td>{{teams.overallTeamStandings.teamStandingsEntry[i].stats.BlkPerGame.text}}</td>
         </tr>
       </table>
     </div>
+    <img id="pic1" [attr.src]="teams.overallTeamStandings.teamStandingsEntry[i].photos.pic1"/>
+    <img id="pic2" [attr.src]="teams.overallTeamStandings.teamStandingsEntry[i].photos.pic2"/>
+    <img id="logo" [attr.src]="teams.overallTeamStandings.teamStandingsEntry[i].logo"/>
+    <div id="video-location" [innerHTML]="teams.overallTeamStandings.teamStandingsEntry[i].video | keepHtml"></div>
   </div>
 </div>
+<!--<iframe width="854" height="480" src="https://www.youtube.com/embed/jSVpSRjJY1E" frameborder="0" allowfullscreen></iframe>-->

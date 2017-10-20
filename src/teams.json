@@ -7,14 +7,14 @@
           "ID": "101",
           "City": "Golden State",
           "Name": "Warriors",
-          "Abbreviation": "GSW",
-          "teamColor": "blue"
+          "Abbreviation": "GSW"
         },
         "photos": {
           "pic1": "https://www.cheatsheet.com/wp-content/uploads/2016/05/Golden-State-Warriors-Ezra-Shaw-Getty-Images-2.jpg",
           "pic2": "http://data.sportsworldnews.com/data/images/full/34710/golden-state-warriors-2016-record.jpg",
           "pic3": "https://az616578.vo.msecnd.net/files/2016/02/26/635920518677879364802260042_warriors%20trio.jpg"
         },
+        "video": "<iframe id='team-video' width='500px' height='250px' src='https://www.youtube.com/embed/jSVpSRjJY1E' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png",
         "rank": "1",
         "stats": {
@@ -371,6 +371,7 @@
           "pic2": "https://www.cheatsheet.com/wp-content/uploads/2016/05/Tim-Duncan-San-Antonio-Spurs.jpg",
           "pic3": "http://i.axs.com/2016/04/promoted-media_5703c56bcc371.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/MYeHuY6BTYk' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/sas.png",
         "rank": "2",
         "stats": {
@@ -727,6 +728,7 @@
           "pic2": "https://i.ytimg.com/vi/z2IX2sg8BlA/maxresdefault.jpg",
           "pic3": "https://d3d2maoophos6y.cloudfront.net/wp-content/uploads/sites/5/2016/09/17093313/AP_598208312700-1.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/WzcHEcwNyvw' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/hou.png",
         "rank": "3",
         "stats": {
@@ -1083,6 +1085,7 @@
           "pic2": "https://2.bp.blogspot.com/-SM6DHe9ixtE/WTVxRCjdEYI/AAAAAAABOks/wYFAVWey2is_hQ1ipBaFJdrbjSySElKyACLcB/s1600/celtics_isaiah_thomas_2_040815.jpg",
           "pic3": "https://4.bp.blogspot.com/-z5vlkCmFWUA/WUAy5rQsfhI/AAAAAAABOp4/B4_VGNLZ_SsFhA2FUzzSBoMK5LWl92z7QCLcB/s640/isaiah-thomas-avery-bradley-marcus-smart.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/Z3F7hg22c4Q' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://i.cdn.turner.com/nba/nba/teamsites/images/legacy/celtics/CelticsLogo_History.gif",
         "rank": "4",
         "stats": {
@@ -1439,6 +1442,7 @@
           "pic2": "https://hoopshabit.com/files/2016/10/8946130-chris-paul-blake-griffin-nba-toronto-raptors-los-angeles-clippers.jpg",
           "pic3": "http://img.bleacherreport.net/img/slides/photos/004/052/635/hi-res-7e0b41d296311ea1b3cda47692d32d44_crop_north.jpg?w=630&h=420&q=75"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/1o3BwiRRjyo' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://www.seeklogo.net/wp-content/uploads/2012/12/los-angeles-clippers-logo-vector-200x200.png",
         "rank": "5",
         "stats": {
@@ -1795,6 +1799,7 @@
           "pic2": "https://news.sportsinteraction.com/wp-content/blogs.dir/1341/files/2016/05/Raptors-May-2-2016.jpg",
           "pic3": "http://beneaththeboardwalk.com/wp-content/uploads/2016/04/1-29.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/3-gZPlJb2Js' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/tor.png",
         "rank": "6",
         "stats": {
@@ -2151,6 +2156,7 @@
           "pic2": "http://img.bleacherreport.net/img/images/photos/003/620/456/hi-res-d4a0988f9d5e94a670f893f53122e9a7_crop_north.jpg?1471970698&w=630&h=420",
           "pic3": "http://www.rantsports.com/nba/files/2016/02/Utah-Jazz.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/hRGdpwT0nc8' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Utah_Jazz_logo%2C_%282010_%27new_look%27%29.svg/1280px-Utah_Jazz_logo%2C_%282010_%27new_look%27%29.svg.png",
         "rank": "7",
         "stats": {
@@ -2507,6 +2513,7 @@
           "pic2": "http://content.wkyc.com/photo/2016/05/15/USATSI_9281290_1463357983915_2288719_ver1.0.jpg",
           "pic3": "http://cdn.gospelherald.com/data/images/full/15874/nba-cleveland-cavaliers-at-indiana-pacers.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/4dcH7cajFFg' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://media.cleveland.com/startingblocks/photo/new-cavaliers-primary-logojpg-ecde4d110d8b58e4.jpg",
         "rank": "8",
         "stats": {
@@ -2863,6 +2870,7 @@
           "pic2": "http://img.bleacherreport.net/img/images/photos/003/623/545/hi-res-23b0c42ccef81ca7f2ac62ce19e558ee_crop_north.jpg?1473278890&w=630&h=420",
           "pic3": "https://hoopshabit.com/files/2016/09/8903077-john-wall-bradley-beal-marcin-gortat-nba-san-antonio-spurs-washington-wizards-1.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/pAtDS3_dEWs' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://lh3.googleusercontent.com/Se_JaoTyEUh4xvVu9CYfgfmjb573H6u2OrhVlJZCwi2E8R612M0K3iRIVfM4-6YoQb4THqkkGtWJV9DN2Mgpc8YRjevuHthvUUyejPYGT45Je6RTnj7Tn8a5h3qp_JTvfB9sj98",
         "rank": "9",
         "stats": {
@@ -3219,6 +3227,7 @@
           "pic2": "https://thunderousintentions.com/wp-content/blogs.dir/157/files/2016/08/9176575-enes-kanter-steven-adams-nba-minnesota-timberwolves-oklahoma-city-thunder.jpg",
           "pic3": "https://i.ytimg.com/vi/McNhoRpXL10/maxresdefault.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/WprdCFFG8uM' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://www.europe-travel-guides.com/wp-content/uploads/2017/05/okc-thunder-logo-pictures-similiar-city-of-oklahoma-city-logo-keywords-to-print.png",
         "rank": "10",
         "stats": {
@@ -3575,6 +3584,7 @@
           "pic2": "http://www.basketballinsiders.com/wp-content/uploads/2014/12/Grizzlies_Allen_Gasol_Conley_Randolph.jpg",
           "pic3": "http://i.cdn.turner.com/drp/nba/grizzlies/sites/default/files/getty-images-618474520.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/vJ9wwDXrgyc' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/mem.png",
         "rank": "11",
         "stats": {
@@ -3931,6 +3941,7 @@
           "pic2": "https://soaringdownsouth.com/wp-content/blogs.dir/131/files/2016/08/9109834-dennis-schroder-nba-atlanta-hawks-philadelphia-76ers.jpg",
           "pic3": "https://soaringdownsouth.com/wp-content/blogs.dir/131/files/2016/09/9278700-kyrie-irving-dennis-schroder-nba-playoffs-atlanta-hawks-cleveland-cavaliers.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/XzZd_W4ix2I' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://i.cdn.turner.com/drp/nba/hawks/sites/default/files/primary.jpg",
         "rank": "12",
         "stats": {
@@ -4287,6 +4298,7 @@
           "pic2": "https://imagesvc.timeincapp.com/v3/fan/image?url=https://hoopshabit.com/files/2016/09/9231189-tyler-ennis-jabari-parker-giannis-antetokounmpo-nba-chicago-bulls-milwaukee-bucks.jpg&",
           "pic3": "https://hoopshabit.com/files/2016/09/8917205-khris-middleton-michael-carter-williams-giannis-antetokounmpo-nba-philadelphia-76ers-milwaukee-bucks.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/BhpVibrcuBA' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/bucks/150501-logo-primary.svg",
         "rank": "13",
         "stats": {
@@ -4643,6 +4655,7 @@
           "pic2": "https://imagesvc.timeincapp.com/v3/fan/image?url=https://hoopshabit.com/wp-content/uploads/usat-images/2016/04/10022894-nba-playoffs-cleveland-cavaliers-at-indiana-pacers.jpeg&c=sc&w=850&h=560",
           "pic3": "https://cdn.fansided.com/wp-content/uploads/usat-images/2016/04/10017499-nba-playoffs-indiana-pacers-at-cleveland-cavaliers.jpeg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/-KbjkCCjc84' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/ind.png",
         "rank": "14",
         "stats": {
@@ -4999,6 +5012,7 @@
           "pic2": "http://img.bleacherreport.net/img/images/photos/003/655/014/937c2673a63740b0b5c8315ea5fee9ea_crop_north.jpg?1485231078&w=630&h=420",
           "pic3": "https://usatftw.files.wordpress.com/2017/04/usatsi_9935581.jpg?w=1000&h=600&crop=1"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/poBJfpN_3WM' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://famouslogos.net/images/miami-heat-logo.jpg",
         "rank": "15",
         "stats": {
@@ -5351,10 +5365,11 @@
           "Abbreviation": "CHI"
         },
         "photos": {
-          "pic1": "http://sportsunbiased.com/wp-content/uploads/2016/11/bulls-e1478301962912.jpg",
+          "pic1": "https://i.ytimg.com/vi/aOxzhkjjB1Q/maxresdefault.jpg",
           "pic2": "http://i.cdn.turner.com/drp/nba/bulls/sites/default/files/hp_smith_schedule_160811.jpg",
           "pic3": "https://i.ytimg.com/vi/aOxzhkjjB1Q/maxresdefault.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/79ebeRyKa8k' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Chicago_Bulls_logo.svg/762px-Chicago_Bulls_logo.svg.png",
         "rank": "16",
         "stats": {
@@ -5711,6 +5726,7 @@
           "pic2": "http://www.rantsports.com/nba/files/2015/09/Portland-Trail-Blazers1.jpg",
           "pic3": "http://www.rantsports.com/nba/files/2015/09/471177438.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/odYVgvG3XYA' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://media.oregonlive.com/blazers_impact/photo/new-trail-blazers-logo-dbb068f560f96556.png",
         "rank": "17",
         "stats": {
@@ -6067,6 +6083,7 @@
           "pic2": "http://fadeawayworld.com/wp-content/uploads/2016/10/nuggets.jpg?x92973",
           "pic3": "http://lwosonnba.ms.lastwordonsports.com/wp-content/uploads/sites/9/2016/09/517813662-e1473103781667.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/EbXd3rMPbg8' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/den.png",
         "rank": "18",
         "stats": {
@@ -6423,6 +6440,7 @@
           "pic2": "http://www.rantsports.com/nba/files/2015/08/464962502.jpg",
           "pic3": "http://basketballjunkie.org/wp-content/uploads/2016/04/img_5723a68337bd3.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/Fry26YdEs-w' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://media.mlive.com/pistons_impact/photo/pistons7.jpg",
         "rank": "19",
         "stats": {
@@ -6779,6 +6797,7 @@
           "pic2": "http://2l7g9kgsh281akevs49v281d.wpengine.netdna-cdn.com/wp-content/uploads/2016/08/kemba-walker-getty-ftr-012516_14wy22hk531ny1oe3ieawdkpaq-1024x576.jpg",
           "pic3": "https://swarmandsting.com/wp-content/uploads/usat-images/2016/04/10006784-nba-charlotte-hornets-at-atlanta-hawks.jpeg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/dQO7Qf8uUVw' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://cdn-s3.si.com/s3fs-public/2013/12/charlotte-hornets-logo-11.jpg",
         "rank": "20",
         "stats": {
@@ -7135,6 +7154,7 @@
           "pic2": "http://i.cdn.turner.com/drp/nba/pelicans/sites/default/files/styles/story_main_photo/public/guards-for-pelicans.jpg?itok=eFPm6X7D",
           "pic3": "https://hoopshabit.com/files/2016/09/9070375-darren-erman-tyreke-evans-anthony-davis-nba-detroit-pistons-new-orleans-pelicans.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/3JOyhiT6va8' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/nop.png",
         "rank": "21",
         "stats": {
@@ -7491,6 +7511,7 @@
           "pic2": "https://imagesvc.timeincapp.com/v3/fan/image?url=http://hoopshabit.com/wp-content/uploads/getty-images/2017/09/666139108-san-antonio-spurs-v-dallas-mavericks.jpg-850x560.jpg&c=sc&w=590&h=389",
           "pic3": "https://imagesvc.timeincapp.com/v3/fan/image?url=https://hoopshabit.com/files/2016/10/9587902-harrison-barnes-nba-preseason-charlotte-hornets-dallas-mavericks.jpg&c=sc&w=850&h=560"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/1-0JkphG0PY' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Dallas_Mavericks_logo.svg/577px-Dallas_Mavericks_logo.svg.png",
         "rank": "22",
         "stats": {
@@ -7847,6 +7868,7 @@
           "pic2": "https://cdn.inquisitr.com/wp-content/uploads/2016/02/Rudy-Gay-And-Ben-McLemore.jpg",
           "pic3": "https://cdn.fansided.com/wp-content/blogs.dir/229/files/2016/02/demarcus-cousins-rudy-gay-nba-charlotte-hornets-sacramento-kings.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/BBnJyNO1vpQ' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/kings/KINGSDIGITAL-SYNC/kings_web_2016-04-19/images/logo-current.png",
         "rank": "23",
         "stats": {
@@ -8203,6 +8225,7 @@
           "pic2": "https://hoopshabit.com/wp-content/uploads/usat-images/2016/04/9609165-nba-preseason-minnesota-timberwolves-at-miami-heat.jpeg",
           "pic3": "https://hoopshabit.com/wp-content/uploads/usat-images/2016/04/9951333-nba-minnesota-timberwolves-at-miami-heat.jpeg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/lAHvS1nfpb8' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://stmedia.startribune.com/images/ctyp+wolves+logo3.png",
         "rank": "24",
         "stats": {
@@ -8559,6 +8582,7 @@
           "pic2": "https://dailyknicks.com/wp-content/blogs.dir/27/files/2016/08/8973371-carmelo-anthony-kristaps-porzingis-nba-brooklyn-nets-new-york-knicks.jpg",
           "pic3": "https://hoopshabit.com/files/2016/09/9253475-carmelo-anthony-nba-new-york-knicks-philadelphia-76ers.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/yM0VqUAcxyo' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://assets.fastcompany.com/multisite_files/codesign/imagecache/inline-large/post-inline/NYKNICKS_Logo-Final.jpg",
         "rank": "25",
         "stats": {
@@ -8915,6 +8939,7 @@
           "pic2": "https://orlandomagicdaily.com/wp-content/uploads/usat-images/2016/04/9621857-nba-preseason-new-orleans-pelicans-at-orlando-magic.jpeg",
           "pic3": "https://orlandomagicdaily.com/wp-content/uploads/usat-images/2016/04/9749911-nba-brooklyn-nets-at-orlando-magic.jpeg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/HEdWsImBKSQ' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Orlando_Magic_logo.svg/1200px-Orlando_Magic_logo.svg.png",
         "rank": "26",
         "stats": {
@@ -9271,6 +9296,7 @@
           "pic2": "https://cdn.fansided.com/wp-content/blogs.dir/82/files/2016/09/9381982-ben-simmons-nba-summer-league-philadelphia-76ers-vs-golden-state-warriors-766x560.jpg",
           "pic3": "https://thesixersense.com/wp-content/blogs.dir/98/files/2016/07/nerlens-noel-robert-covington-nba-houston-rockets-philadelphia-76ers.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/XlGpcuaCgWI' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://vignette1.wikia.nocookie.net/logopedia/images/d/db/5312_philadelphia_76ers-secondary-2016.png/revision/latest?cb=20151103180139",
         "rank": "27",
         "stats": {
@@ -9627,6 +9653,7 @@
           "pic2": "http://img.bleacherreport.net/img/slides/photos/004/215/913/6be9f2869fcb265ce3986911f3b29fe7_crop_exact.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top",
           "pic3": "http://img.bleacherreport.net/img/images/photos/003/591/808/hi-res-a0e010088305a23c8e4dcde8235b40ce_crop_north.jpg?1460941770&w=630&h=420"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/th7MG7t01_s' frameborder='0' allowfullscreen></iframe>",
         "logo": "https://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/lal.png",
         "rank": "28",
         "stats": {
@@ -9983,6 +10010,7 @@
           "pic2": "https://cdn.vox-cdn.com/thumbor/DCxlMxNzAUC2yD0V-BTmPbTsuFw=/0x0:4928x3280/1200x800/filters:focal(1978x1002:2766x1790)/cdn.vox-cdn.com/uploads/chorus_image/image/54642621/usa_today_9787310.0.jpg",
           "pic3": "https://hoopshabit.com/files/2016/12/9041224-tyson-chandler-p.j.-tucker-nba-charlotte-hornets-phoenix-suns.jpg"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/49-jCQI5LVM' frameborder='0' allowfullscreen></iframe>",
         "logo": "http://i.cdn.turner.com/drp/nba/suns/sites/default/files/styles/main_gallery_photo__480_tall/public/legacy/photos/sunslogo_11.jpg?itok=9KKpIth2",
         "rank": "29",
         "stats": {
@@ -10339,6 +10367,8 @@
           "pic2": "https://nothinbutnets.com/wp-content/blogs.dir/155/files/2016/12/9769627-randy-foye-nba-charlotte-hornets-brooklyn-nets-1.jpg",
           "pic3": "http://img.bleacherreport.net/img/images/photos/003/658/145/hi-res-953b323e76b23822d9a978666008f72a_crop_north.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top"
         },
+        "video": "<iframe width='500' height='250' src='https://www.youtube.com/embed/jq7kgu98OQo' frameborder='0' allowfullscreen></iframe>",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/1200px-Brooklyn_Nets_newlogo.svg.png",
         "rank": "30",
         "stats": {
           "GamesPlayed": {

@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule, JsonpModule }    from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
+import { EscapeHtmlPipe }   from './keep-html.pipe';
 
 import { AppComponent }         from './app.component';
 import { TeamsComponent }       from './teams.component';
@@ -18,6 +19,7 @@ import { TeamService }          from './team.service';
   declarations: [ AppComponent,
                   TeamsComponent,
                   TeamDetailComponent,
+                  EscapeHtmlPipe
   ],
   providers:    [ TeamService ],
   bootstrap:    [ AppComponent ]
